@@ -7,7 +7,7 @@ A notification will be sent to the OS, assuming Mac OS, using a line of AppleScr
 This script looks for the keyword "Grade posted" on the announcements table to determine when a grade has been posted or not. Using a regular expression, if the keyword is found, then the script notifies the user.
 <br>
 I recommend running this script as a cronjob in the background to optimize the convenience.
-<br>
+<br><br>
 <b>Limitations</b><br>
 The script will always notify you that a grade has been posted for as long as that announcement is on the homepage. I highly recommend clearing the announcement to keep yourself from being sent more notification.
 <br>
