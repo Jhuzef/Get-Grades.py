@@ -1,6 +1,6 @@
 # Get-Grades.py
 <h3>Summary</h3>
-This script was made to automate the process of checking grades at the end of the semesterfor NJIT student. It mainly uses the Mechanize and BeautifulSoup libraries to authenticate and parse the NJIT website for grades.
+This script was made to automate the process of checking grades at the end of the semester for NJIT student. It mainly uses the Mechanize and BeautifulSoup libraries to authenticate and parse the NJIT website for grades.
 <br>
 A notification will be sent to the OS, assuming Mac OS, using a line of AppleScript, and through e-mail using the smtplib library. Gmail requires that you allow 'less-secure apps' to grant this script privilege to send e-mails.
 <br>
